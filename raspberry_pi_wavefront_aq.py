@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+# Air Quality Data Streaming to VMware Tanzu Observability by Wavefront
+
+################################################################################
+### Copyright (C) 2020 VMware, Inc.  All rights reserved.
+### SPDX-License-Identifier: BSD-2-Clause
+################################################################################
+
 import serial, time
 from time import gmtime, strftime
 from datetime import datetime
